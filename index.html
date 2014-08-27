@@ -1,0 +1,407 @@
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="copyright" content="2010, A24 Landschaft" />
+<meta name="contact_addr" content="post(at)a24-landschaft.de" />
+<meta name="robots" content="index,follow" />
+<meta name="googlebot" content="index,follow" />
+<meta name="rating" content="General" />
+<meta name="distribution" content="global" />
+<meta name="classification" content="Internet" />
+<meta name="audience" content="Alle" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta http-equiv="Content-Language" content="de" />
+<meta name="Description" content="" />
+<meta name="abstract" content="" />
+<meta http-equiv="imagetoolbar" content="no" />
+<meta name="Keywords" content="A24,landschaft, A24 LANDSCHAFT, Architektur, " /><title>a24 landschaft</title>
+<link href="css/a24.css" rel="stylesheet" type="text/css" media="screen" />
+<link rel="stylesheet" href="css/queryLoader.css"  type="text/css" />
+<link rel="stylesheet" href="css/jquery.jscrollpane.css"  type="text/css" />
+<!--[if IE]>
+	<link href="css/ie.css" rel="stylesheet" type="text/css" media="screen" />
+<![endif]-->
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="js/a24.js"></script>
+<script type="text/javascript" src="js/supersized.2.0.js"></script>
+<script type='text/javascript' src="js/jquery.ajaxQueue.js"></script>
+<script type='text/javascript' src="js/queryLoader.js"></script>
+<script type='text/javascript' src="js/jquery.mobile.custom.min.js"></script>
+
+
+<script type="text/javascript">
+	$(function(){
+		// DIVS HIDING
+		$("#maincon")
+		.add("#menu_projekte")
+		.add("#menuH")
+		.add("#menu_suche")
+		.add("#menu_buero")
+		.add("#projektlist")
+		.add("#nojava")
+		.add("#impressum_text")
+		.add("#impressum_background")
+		.add("#kontakt_text")
+		.add(".menu_preise")
+		.add(".menu_news")
+		.add(".menu_mitab")
+		.add(".menu_mitab_list")
+		.hide();
+		QueryLoader.init();
+		$.fn.supersized.options = {  
+			startwidth: 1920,
+			startheight: 1080,
+			//minwidth: 1200,
+			//minheight:750,
+			vertical_center: 1,
+			minsize: 1,
+			slideshow:0
+		};
+		$("#supersize").supersized();
+		$.a24.sl = "de";
+		$.a24.imgFOLD = "http://www.a24-landschaft.com/imago/images/";
+		$.a24.txt_lebenslauf = "VITA";
+		$.a24.txt_vortrag = "VORTRAG";
+		$.a24.txt_lehre = "LEHRE";
+		$.a24.txt_daten = "Daten";
+		$.a24.txt_text = "Text";
+		$.a24.txt_preise = "Preise";
+		$.a24.txt_publikationen = "Publikationen";
+    
+    //$.a24.has_touch = 'ontouchstart' in window || !!navigator.msMaxTouchPoints; // detect touch device - move to main js file
+    
+	 });
+</script>
+<!--[if IE]>
+	<script type='text/javascript' src="js/ie.fading.js"></script>
+<![endif]-->
+<script type="text/javascript">
+
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-20548142-2']);
+  _gaq.push(['_setDomainName', 'none']);
+  _gaq.push(['_setAllowLinker', true]);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
+</script>
+</head><body id="body_suche" class="start">
+	<div id="maincon">
+		<div id="navigation">
+			<div id="menuH">
+				<ul>
+					<li class="suche"><a href="?m=suche&sl=de">SUCHE</a></li>
+					<li class="projekte"><a href="?m=projekte&sl=de" class="normal">PROJEKTE</a></li>
+					<li class="buero"><a href="?m=buero&sl=de" class="normal">B&Uuml;RO</a></li>
+				</ul>
+			</div>
+			<div id="menu_projekte">
+				<div class="bereiche"><div class="scrollable"><ul><li style="margin-right:220px">
+								  <a href="?m=projekte&k=0&i=2&sl=de" id="bereiche-0-2" >LANDSCHAFT</a>
+								  </li><li style="margin-right:215px">
+								  <a href="?m=projekte&k=0&i=3&sl=de" id="bereiche-0-3" >ST&Auml;DTEBAU</a>
+								  </li></ul></div></div><div class="typologie"><div class="scrollable"><ul><li style="margin-right:220px">
+								  <a href="?m=projekte&k=1&i=1&sl=de" id="typologie-1-1" >WOHNEN</a>
+								  </li><li style="margin-right:215px">
+								  <a href="?m=projekte&k=1&i=2&sl=de" id="typologie-1-2" >KULTUR</a>
+								  </li><li style="margin-right:210px">
+								  <a href="?m=projekte&k=1&i=3&sl=de" id="typologie-1-3" >BILDUNG</a>
+								  </li><li style="margin-right:205px">
+								  <a href="?m=projekte&k=1&i=4&sl=de" id="typologie-1-4" >GEWERBE</a>
+								  </li><li style="margin-right:200px">
+								  <a href="?m=projekte&k=1&i=5&sl=de" id="typologie-1-5" >WASSER</a>
+								  </li><li style="margin-right:195px">
+								  <a href="?m=projekte&k=1&i=6&sl=de" id="typologie-1-6" >GR&Uuml;NRAUM</a>
+								  </li><li style="margin-right:190px">
+								  <a href="?m=projekte&k=1&i=7&sl=de" id="typologie-1-7" >VERKEHR</a>
+								  </li><li style="margin-right:185px">
+								  <a href="?m=projekte&k=1&i=8&sl=de" id="typologie-1-8" >SPIELPLATZ</a>
+								  </li></ul></div></div><div class="realisierungsgrad"><div class="scrollable"><ul><li style="margin-right:220px">
+								  <a href="?m=projekte&k=2&i=1&sl=de" id="realisierungsgrad-2-1" >WETTBEWERB</a>
+								  </li><li style="margin-right:215px">
+								  <a href="?m=projekte&k=2&i=2&sl=de" id="realisierungsgrad-2-2" >IN PLANUNG</a>
+								  </li><li style="margin-right:210px">
+								  <a href="?m=projekte&k=2&i=3&sl=de" id="realisierungsgrad-2-3" >IN BAU</a>
+								  </li><li style="margin-right:205px">
+								  <a href="?m=projekte&k=2&i=4&sl=de" id="realisierungsgrad-2-4" >REALISIERT</a>
+								  </li></ul></div></div>			</div>
+			<div id="menu_suche">
+				<form method="POST" action="/index.php" name="fsuche" id="fsuche">
+					<input type="text" id="suchfeld" name="suchfeld" value="" />
+					<input type="hidden" id="sl" name="sl" value="de" />
+					<input type="submit" value="Array" id="btnsuche">
+				</form>
+			</div>
+			<div id="menu_buero">
+				<div class="buero_mainmenu">
+					<ul>
+						<li style="margin-right:54px"><a href="?m=buero&c=aktuell&sl=de" id="aktuell">AKTUELL</a></li><li style="margin-right:49px"><a href="?m=buero&c=mitarbeiter&sl=de" id="mitarbeiter">MITARBEITER</a></li><li style="margin-right:44px"><a href="?m=buero&c=preise&sl=de" id="preise">PREISE</a></li><li style="margin-right:39px"><a href="?m=buero&c=publikationen&sl=de" id="publikationen">PUBLIKATIONEN</a></li><li style="margin-right:34px"><a href="?m=buero&c=kontakt&sl=de" id="kontakt">KONTAKT</a></li>					</ul>
+				</div>
+				<div class="menu_news"><div class="scrollable"><ul><li style="text-align:left;margin-left:7px">
+								  <a href="?m=buero&c=aktuell&i=59&sl=de" id="aktuell-59">27.08.2014</a>
+								  </li><li style="text-align:left;margin-left:12px">
+								  <a href="?m=buero&c=aktuell&i=57&sl=de" id="aktuell-57">08.08.2014</a>
+								  </li><li style="text-align:left;margin-left:17px">
+								  <a href="?m=buero&c=aktuell&i=55&sl=de" id="aktuell-55">06.08.2014</a>
+								  </li><li style="text-align:left;margin-left:22px">
+								  <a href="?m=buero&c=aktuell&i=53&sl=de" id="aktuell-53">29.07.2014</a>
+								  </li><li style="text-align:left;margin-left:27px">
+								  <a href="?m=buero&c=aktuell&i=52&sl=de" id="aktuell-52">19.06.2014</a>
+								  </li><li style="text-align:left;margin-left:32px">
+								  <a href="?m=buero&c=aktuell&i=51&sl=de" id="aktuell-51">12.06.2014</a>
+								  </li></ul></div></div><div class="menu_preise"><div class="scrollable"><ul><li style="text-align:left;margin-left:7px">
+								  <a href="?m=buero&c=preise&i=6&sl=de" id="preise-6">Landeswettbewerb Modellhafte Stadt- und Ortssanierung</a>
+								  </li><li style="text-align:left;margin-left:12px">
+								  <a href="?m=buero&c=preise&i=5&sl=de" id="preise-5">LEAF Award 2014</a>
+								  </li><li style="text-align:left;margin-left:17px">
+								  <a href="?m=buero&c=preise&i=4&sl=de" id="preise-4">Finalist AZ AWARD FOR DESIGN EXELLENCE 2014</a>
+								  </li><li style="text-align:left;margin-left:22px">
+								  <a href="?m=buero&c=preise&i=2&sl=de" id="preise-2">7th European Landscape Biennial, Rosa Barba European Landscape Prize </a>
+								  </li><li style="text-align:left;margin-left:27px">
+								  <a href="?m=buero&c=preise&i=3&sl=de" id="preise-3">Deutscher Landschaftsarchitektur-Preis 2011</a>
+								  </li><li style="text-align:left;margin-left:32px">
+								  <a href="?m=buero&c=preise&i=1&sl=de" id="preise-1">Holzbaupreis Bayern 2010</a>
+								  </li></ul></div></div><div class="menu_mitab"><div class="scrollable"><ul><li style="text-align:right;margin-right:220px">
+						  <a href="?m=buero&c=mitarbeiter&group=1&sl=de" id="mitarbeiter-1">INHABER</a>
+						  </li><li style="text-align:right;margin-right:215px">
+						  <a href="?m=buero&c=mitarbeiter&group=2&sl=de" id="mitarbeiter-2">PROJEKTLEITER</a>
+						  </li><li style="text-align:right;margin-right:210px">
+						  <a href="?m=buero&c=mitarbeiter&group=3&sl=de" id="mitarbeiter-3">MITARBEITER</a>
+						  </li></ul></div><div class="logo_mitab"><img src="imago/fixed/a24_logo_singleline_color.png" /></div></div><div class="menu_mitab_list" id="menu-mitarbeiter-1"><div class="scrollable"><ul><li style="text-align:left;margin-left:10px">
+								  <a href="?m=buero&c=mitarbeiter&group=1&i=62&sl=de" id="mitarbeiter-1-62">Steffan Robel</a>
+								  </li></ul></div></div><div class="menu_mitab_list" id="menu-mitarbeiter-2"><div class="scrollable"><ul><li style="text-align:left;margin-left:10px">
+								  <a href="?m=buero&c=mitarbeiter&group=2&i=11&sl=de" id="mitarbeiter-2-11">Dipl.-Ing. Joachim Naundorf</a>
+								  </li><li style="text-align:left;margin-left:15px">
+								  <a href="?m=buero&c=mitarbeiter&group=2&i=14&sl=de" id="mitarbeiter-2-14">Dipl.-Ing Sebastian Pötter</a>
+								  </li><li style="text-align:left;margin-left:20px">
+								  <a href="?m=buero&c=mitarbeiter&group=2&i=1&sl=de" id="mitarbeiter-2-1">Dipl.-Ing. Lola Meyer</a>
+								  </li><li style="text-align:left;margin-left:25px">
+								  <a href="?m=buero&c=mitarbeiter&group=2&i=2&sl=de" id="mitarbeiter-2-2">Dipl.-Ing. Carole Blessner</a>
+								  </li><li style="text-align:left;margin-left:30px">
+								  <a href="?m=buero&c=mitarbeiter&group=2&i=3&sl=de" id="mitarbeiter-2-3">Dipl.-Ing. Jan Grimmek</a>
+								  </li><li style="text-align:left;margin-left:35px">
+								  <a href="?m=buero&c=mitarbeiter&group=2&i=73&sl=de" id="mitarbeiter-2-73">Dipl.-Ing Sibylle Lacheta</a>
+								  </li></ul></div></div><div class="menu_mitab_list" id="menu-mitarbeiter-3"><div class="scrollable"><ul><li style="text-align:left;margin-left:10px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=77&sl=de" id="mitarbeiter-3-77">Kerstin Köpnick</a>
+								  </li><li style="text-align:left;margin-left:15px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=75&sl=de" id="mitarbeiter-3-75">M.Sc.Arch. Sara Perovic</a>
+								  </li><li style="text-align:left;margin-left:20px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=84&slsl=de" id="mitarbeiter-3-84">Yue Guan M.A.</a>
+								  </li><li style="text-align:left;margin-left:25px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=89&sl=de" id="mitarbeiter-3-89">Dipl.-Ing. (FH) Hendrikje Unteutsch</a>
+								  </li><li style="text-align:left;margin-left:30px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=92&sl=de" id="mitarbeiter-3-92">Dipl.-Ing. (FH) Maren Jeschke </a>
+								  </li><li style="text-align:left;margin-left:35px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=100&sl=de" id="mitarbeiter-3-100">M.Sc.Arch. Laura Veronese</a>
+								  </li><li style="text-align:left;margin-left:40px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=103&sl=de" id="mitarbeiter-3-103">Ingenieur Paysagiste Marion Guichard</a>
+								  </li><li style="text-align:left;margin-left:45px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=107&sl=de" id="mitarbeiter-3-107">M.Sc.Arch. Matteo Basta </a>
+								  </li><li style="text-align:left;margin-left:50px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=37&sl=de" id="mitarbeiter-3-37">Ling Ma</a>
+								  </li><li style="text-align:left;margin-left:55px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=82&sl=de" id="mitarbeiter-3-82">Daniel Groß</a>
+								  </li><li style="text-align:left;margin-left:60px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=98&sl=de" id="mitarbeiter-3-98">Dipl.- Ing. Arch.Javier Fernandez</a>
+								  </li><li style="text-align:left;margin-left:65px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=102&sl=de" id="mitarbeiter-3-102">B. Sc.Romano Richter</a>
+								  </li><li style="text-align:left;margin-left:70px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=104&sl=de" id="mitarbeiter-3-104">Pia Mastrantonio</a>
+								  </li><li style="text-align:left;margin-left:75px">
+								  <a href="?m=buero&c=mitarbeiter&group=3&i=108&sl=de" id="mitarbeiter-3-108">M. Sc. Arch. Giulio Zanetti</a>
+								  </li><li style="text-align:left;margin-left:80px">&nbsp;</li></ul></div></div>			</div>
+			<!--div class="homelink_container">
+				<div class="homelink" style="left:100px;top:0px;"></div>
+				<div class="homelink" style="left:101px;top:2px;"></div>
+				<div class="homelink" style="left:101px;top:4px;"></div>
+				<div class="homelink" style="left:102px;top:6px;"></div>
+				<div class="homelink" style="left:102px;top:8px;"></div>
+				<div class="homelink" style="left:103px;top:10px;"></div>
+				<div class="homelink" style="left:103px;top:12px;"></div>
+				<div class="homelink" style="left:104px;top:14px;"></div>
+				<div class="homelink" style="left:104px;top:16px;"></div>
+				<div class="homelink" style="left:105px;top:18px;"></div>
+				<div class="homelink" style="left:105px;top:20px;"></div>
+				<div class="homelink" style="left:106px;top:22px;"></div>
+				<div class="homelink" style="left:106px;top:24px;"></div>
+				<div class="homelink" style="left:107px;top:26px;"></div>
+				<div class="homelink" style="left:107px;top:28px;"></div>
+				<div class="homelink" style="left:108px;top:30px;"></div>
+				<div class="homelink" style="left:109px;top:32px;"></div>
+				<div class="homelink" style="left:109px;top:34px;"></div>
+				<div class="homelink" style="left:110px;top:36px;"></div>
+				<div class="homelink" style="left:110px;top:38px;"></div>
+				<div class="homelink" style="left:111px;top:40px;"></div>
+				<div class="homelink" style="left:111px;top:42px;"></div>
+				<div class="homelink" style="left:112px;top:44px;"></div>
+				<div class="homelink" style="left:112px;top:46px;"></div>
+				<div class="homelink" style="left:113px;top:48px;"></div>
+				<div class="homelink" style="left:113px;top:50px;"></div>
+				<div class="homelink" style="left:114px;top:52px;"></div>
+				<div class="homelink" style="left:114px;top:54px;"></div>
+				<div class="homelink" style="left:115px;top:56px;"></div>
+				<div class="homelink" style="left:116px;top:58px;"></div>
+				<div class="homelink" style="left:116px;top:60px;"></div>
+				<div class="homelink" style="left:117px;top:62px;"></div>
+				<div class="homelink" style="left:117px;top:64px;"></div>
+				<div class="homelink" style="left:118px;top:66px;"></div>
+				<div class="homelink" style="left:118px;top:68px;"></div>
+				<div class="homelink" style="left:119px;top:70px;"></div>
+				<div class="homelink" style="left:119px;top:72px;"></div>
+				<div class="homelink" style="left:120px;top:74px;"></div>
+				<div class="homelink" style="left:120px;top:76px;"></div>
+				<div class="homelink" style="left:121px;top:78px;"></div>
+				<div class="homelink" style="left:121px;top:80px;"></div>
+				<div class="homelink" style="left:122px;top:82px;"></div>
+				<div class="homelink" style="left:122px;top:84px;"></div>
+				<div class="homelink" style="left:123px;top:86px;"></div>
+				<div class="homelink" style="left:123px;top:88px;"></div>
+				<div class="homelink" style="left:124px;top:90px;"></div>
+				<div class="homelink" style="left:124px;top:92px;"></div>
+				<div class="homelink" style="left:125px;top:94px;"></div>
+				<div class="homelink" style="left:125px;top:96px;"></div>
+				<div class="homelink" style="left:126px;top:98px;"></div>
+				<div class="homelink" style="left:126px;top:100px;"></div>
+				<div class="homelink" style="left:127px;top:102px;"></div>
+				<div class="homelink" style="left:127px;top:104px;"></div>
+				<div class="homelink" style="left:128px;top:106px;"></div>
+				<div class="homelink" style="left:128px;top:108px;"></div>
+				<div class="homelink" style="left:129px;top:110px;"></div>
+				<div class="homelink" style="left:129px;top:112px;"></div>
+				<div class="homelink" style="left:130px;top:114px;"></div>
+				<div class="homelink" style="left:130px;top:116px;"></div>
+				<div class="homelink" style="left:131px;top:118px;"></div>
+				<div class="homelink" style="left:131px;top:120px;"></div>
+			</div-->
+		</div>
+		<div id="projektlist_container">
+			<div id="projektlist">
+				<noscript>
+								</noscript>
+			</div>
+		</div>
+				<div id="buero_container"></div>
+		<div id="impressum_text">
+			<div>
+
+<span style="margin-left:4px"><strong>A24 Landschaft</strong></span><br />
+
+<span style="margin-left:8px">Landschaftsarchitektur GmbH</span><br />
+
+<span style="margin-left:12px"><strong>K&ouml;penicker Stra&szlig;e 154 a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></span><br />
+
+<span style="margin-left:16px"><strong>10997 Berlin&nbsp;</strong></span><br />
+
+<span style="margin-left:20px">fon&nbsp;030 311 69 64 0</span><br />
+
+<span style="margin-left:24px">fax 030 311 69 64 99</span><br />
+
+<span style="margin-left:28px"><a href="mailto:post@a24-landschaft.de">post(at)a24-landschaft.de</a></span><br />
+
+<span style="margin-left:32px"><a href="http://www.a24-landschaft.de">www.a24-landschaft.de</a></span><br />
+
+<span style="margin-left:36px">&nbsp;</span><br />
+
+<span style="margin-left:40px">HANDELSREGISTERNUMMER: 127842 B</span><br />
+
+<span style="margin-left:44px">REGISTERGERICHT: AG Berlin (Charlottenburg)</span><br />
+
+<span style="margin-left:48px">UST-IDNR.: DE273952023</span><br />
+
+<span style="margin-left:52px">GESCH&Auml;FTSF&Uuml;HRER: Steffan Robel</span><br />
+
+<span style="margin-left:56px">INHALTLICH VERANTWORTLICHER GEM&Auml;SS &sect; 55 II RSTV: Steffan Robel</span><br />
+
+<span style="margin-left:60px">&nbsp;</span><br />
+
+<span style="margin-left:64px">HAFTUNGSHINWEIS: Trotz sorgf&auml;ltiger inhaltlicher Kontrolle &uuml;bernehmen&nbsp;wir keine Haftung f&uuml;r die Inhalte externer Links.</span><br />
+
+<span style="margin-left:68px">F&uuml;r den Inhalt der verlinkten Seiten&nbsp;sind ausschlie&szlig;lich deren Betreiber verantwortlich.</span><br />
+
+<span style="margin-left:72px">&nbsp;</span><br />
+
+<span style="margin-left:76px">DESIGN: www.milchhof.net&nbsp;</span><br />
+
+</div>		</div>
+		<div id="kontakt_text">
+			<span style="margin-left:4px"><strong>A24 Landschaft</strong></span><br />
+
+<span style="margin-left:8px">Landschaftsarchitektur GmbH</span><br />
+
+<span style="margin-left:12px"><strong>K&ouml;penicker Stra&szlig;e 154 a &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</strong></span><br />
+
+<span style="margin-left:16px"><strong>10997 Berlin&nbsp;</strong></span><br />
+
+<span style="margin-left:20px">fon&nbsp;030 311 69 64 0</span><br />
+
+<span style="margin-left:24px">fax 030 311 69 64 99</span><br />
+
+<span style="margin-left:28px"><a href="mailto:post@a24-landschaft.de">post(at)a24-landschaft.de</a></span><br />
+
+<span style="margin-left:32px"><a href="http://www.a24-landschaft.de">www.a24-landschaft.de</a></span><br />
+
+<span style="margin-left:36px">&nbsp;</span><br />		</div>
+		<div id="impressum"><a href="?m=impressum&sl=de" class="impressum">IMPRESSUM</a></div>
+		<div id="noshow"><hr /><small>Ab hier Layout-Elemente ohne Informationsgehalt:</small></div>
+		<div id="nojava">Diese Webseite funktioniert sehr eingeschränkt ohne Javascript. Bitte aktivieren Sie es.</div>
+		<div id="navigation_logos">
+			<span class="logo_start"><img src="imago/fixed/a24_logo.png" /></span>
+			<span class="logo_singleline_bw"><img src="imago/fixed/a24_logo_singleline_color.png" /></span>
+			<span class="logo_singleline_color"><img src="imago/fixed/a24_logo_singleline_color.png" /></span>
+			<span class="logo_lang"><img src="imago/fixed/a24_logo_lang.png" /></span>
+			<span class="logo_kurz"><img src="imago/fixed/a24_logo_kurz.png" /></span>
+		</div>
+	</div>
+  
+		<div id="news_home"><div id="news_home_wrapper"><div><h1>Eröffnungsfeier</h1><p><p>Am 2. September wird ab 14:30 Uhr der M&uuml;hlengarten in Giessen feierlich  er&ouml;ffnet. Die B&uuml;rgermeisterin Frau Weigel-Greilich wird zu diesem Anass  sprechen und den Garten der &Ouml;ff...</p><p><a href="?m=buero&c=aktuell&i=59&sl=de" id="aktuell-59"><strong>Mehr...</strong></a></p></div></div></div>		<noscript>
+					</noscript>
+
+	<div id="imgLoad"><img src="imago/fixed/balken.gif" height="2px" width="100%" /></div>
+	<div id="verlauf">
+		<img src="imago/fixed/verlaufa24.png" width="100%" height="500px" />
+	</div>
+	<div id="impressum_background">
+		<img src="imago/fixed/sfondo_impressum.png" width="100%" height="100%" />
+	</div>
+	<div id="background_img"><div id="flash"></div></div>
+	<div id="supersize">
+		<img src="http://www.a24-landschaft.com/imago/images/1406188709.jpg" title="background" class="defimg" />		<img src="imago/fixed/trasp.png" class="mitab_img" />
+	</div>
+	<script type="text/javascript">
+		$(function(){
+			$("#news_home a").click(function(e){
+						$.openBuero(this.id);
+						e.preventDefault();
+				});			$.a24.defbackimg="1406188709.jpg";
+			$.a24.defbackimgneg="0";
+		});
+	</script>
+	<div id="debug"></div>
+	<div id="all_back_pngs">
+		<img src="imago/fixed/sfondini_inner_proje_fotos.png" />
+		<img src="imago/fixed/sfondini_inner_proje_fotos_black.png" />
+		<img src="imago/fixed/sfondini_inner_proje_fotos_sx.png" />
+		<img src="imago/fixed/sfondini_inner_proje_fotos_sx_black.png" />
+		<img src="imago/fixed/sfondini_inner_proje_fotos_dx.png" />
+		<img src="imago/fixed/sfondini_inner_proje_fotos_dx_black.png" />
+		<img src="imago/fixed/sfondino_nero.png" />
+		<img src="imago/fixed/sfondino_nero_doppio.png" />
+		<img src="imago/fixed/sfondo_inner_proje_daten.png" />
+		<img src="imago/fixed/sfondo_inner_proje_text.png" />
+		<img src="imago/fixed/sfondo_projelist.png" />
+		<img src="imago/fixed/sfondo_searchlist.png" />
+		<img src="imago/fixed/sfondo_news_short.png" />
+	</div>
+	<noscript>
+		<style type="text/css" media="screen">
+body{overflow:auto}div.bereiche,div.typologie,div.realisierungsgrad,div.menu_preise,div.scrollable,div.menu_mitab_list{overflow-y:auto;}div.menu_preise,div.menu_mitab_list{width:900px !important;}.proje_detail_main{z-index:25!important;}</style>	</noscript>
+</body>
+</html>

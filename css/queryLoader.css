@@ -1,0 +1,16 @@
+.QOverlay_logo{
+	z-index: 9999;
+	background-image: url("/imago/fixed/a24_logo.png");
+	background-repeat: no-repeat;
+	background-position: 75px 65px;
+	background-color: #f5f5f5;
+}
+.QOverlay_nologo{
+	z-index: 1;
+	background:none;
+	background-color: #f5f5f5;
+}
+.QLoader {
+	background-color: #ff0099;
+	height: 2px;
+}
